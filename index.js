@@ -33,9 +33,7 @@ app.use((req, res, next)=>{
 });
 
 router.get('/', (req, res) => {
-    res.send(
-        'hello'
-    )
+    res.sendFile('./  ')
 });
 
 // Get all products
